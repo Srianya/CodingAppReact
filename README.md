@@ -8,15 +8,6 @@ CodeTheCode is a React application using dummy json database to display problems
 - Displays a list of problems from dummy database using API request.
 - Uses Bootstrap library to fit beautiful components.
 
-## Tech
-
-CodeTheCode uses a number of modules to work properly:
-
-- [Tkinter] -  standard Python interface to the Tcl/Tk GUI toolkit!
-- [Python] - Programming language.
-- [Google API: geocoding] - give information about latitude and longitude using given address
-- [Google API: reverse geocoding] - give zipcode using latitude and longitude values
-- [Pyinstaller] - to convert file into .exe
 
 ## Prerequisites
 
@@ -26,7 +17,8 @@ Before you continue, ensure you have met the following requirements:
 3. run ```npm install -g json-server```
 ## Quickstart
 1. Run on command-line (Two terminals required)
-    ```npx json-server --watch db.json
+    ```
+    npx json-server --watch db.json
     ```
     and 
     ```
